@@ -25,7 +25,7 @@ public class UserService {
         User user = new User();
         user.setName(name);
         user.setEmail(email);
-        user.setType(UserType.Usuario);
+        //user.setType(UserType.Usuario);
         user.setPassword(password);
 
         userRepository.create(user);
